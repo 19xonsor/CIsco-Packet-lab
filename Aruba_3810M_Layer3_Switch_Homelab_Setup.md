@@ -83,10 +83,11 @@ The connected host was manually configured with:
 The host was able to successfully ping the switch interface on VLAN 1.
 
 #### Screenshot – VLAN 1 Host Ping Test
-![Ping test to VLAN 1 interface](images/02-ping-vlan1.jpg)
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/7776a552-4068-45c2-bc4d-29d83060fb67" />
+
 
 #### Screenshot – Host IP Configuration for VLAN 1
-![Manual host IP configuration for VLAN 1](images/03-mac-ip-config-vlan1.jpg)
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/9497ea7b-3b34-4b2a-ac1d-3dab8f9f0432" />
 
 ---
 
@@ -118,7 +119,7 @@ To test VLAN 2, I assigned the host a new static IP in the same subnet.
 The host was able to successfully ping the VLAN 2 SVI at `192.168.20.1`.
 
 #### Screenshot – VLAN 2 Ping Test
-![Ping test to VLAN 2 interface](images/05-ping-vlan2.jpg)
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/154bad5d-a80d-41a8-a116-d38c2ce3ac88" />
 
 ---
 
@@ -135,14 +136,6 @@ This confirmed:
 - **IP Routing: Enabled**
 - VLAN interfaces configured with IP addresses
 - Aruba switch acting as a multilayer switch
-
-#### Screenshot – `show ip` Output
-![Aruba 3810M show ip output](images/01-show-ip-routing-enabled.jpg)
-
-#### Screenshot – VLAN CLI Configuration
-![Aruba CLI VLAN configuration](images/04-vlan-config-cli.jpg)
-
----
 
 ## What I Learned
 
