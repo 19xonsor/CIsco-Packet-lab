@@ -87,7 +87,7 @@ The host was able to successfully ping the switch interface on VLAN 1.
 
 
 #### Screenshot – Host IP Configuration for VLAN 1
-<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/9497ea7b-3b34-4b2a-ac1d-3dab8f9f0432" />
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/c346f91a-afa1-471d-87c7-22bf9276d85f" />
 
 ---
 
