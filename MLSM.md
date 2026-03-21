@@ -47,7 +47,7 @@ A multi-site enterprise network simulation in Cisco Packet Tracer featuring:
 ## 🧠 What I Learned
 
 ### 1. Layer 3 Switching (Multilayer Switching)
-The Cisco 3650 switch is capable of both switching **and** routing. Unlike a regular Layer 2 switch, a multilayer switch can be assigned IP addresses on VLAN interfaces and route traffic between VLANs — eliminating the need for a dedicated router for inter-VLAN routing.
+The Cisco 3650 switch is capable of both switching **and** routing. Unlike a regular Layer 2 switch, a multilayer switch can be assigned IP addresses on VLAN interfaces and route traffic between VLANs eliminating the need for a dedicated router for inter-VLAN routing.
 
 ### 2. Inter-VLAN Routing via SVI (Switched Virtual Interfaces)
 Instead of using a router-on-a-stick setup, I configured SVIs directly on MLSW1 and MLSW2. Each VLAN (10, 20, 30, 40) gets its own virtual interface with an IP address that acts as the default gateway for hosts in that VLAN.
@@ -65,7 +65,7 @@ Enabled EIGRP on all three routers **and** both multilayer switches so all netwo
 All uplink ports on the multilayer switches were configured as trunks to carry traffic from multiple VLANs between the MLSW and the access layer switches.
 
 ### 7. Packet Tracer Simulation Mode
-Used Simulation Mode with ICMP filters to visually trace the path of a ping from PC1 to PC3, confirming that inter-VLAN traffic was handled entirely by MLSW1 — never leaving the local switch.
+Used Simulation Mode with ICMP filters to visually trace the path of a ping from PC1 to PC3, confirming that inter-VLAN traffic was handled entirely by MLSW1 never leaving the local switch.
 
 ---
 
@@ -211,7 +211,7 @@ show running-config
 ## ✅ Key Takeaways
 
 - A **multilayer switch** (Layer 3 switch) combines the functions of a switch and a router — it can forward frames at Layer 2 **and** route packets at Layer 3.
-- `ip routing` must be explicitly enabled on a Cisco 3650 — it doesn't route by default.
+- `ip routing` must be explicitly enabled on a Cisco 3650 it doesn't route by default.
 - DHCP pools configured on the MLSW serve all hosts in each VLAN, making the network more scalable and easier to manage than static IPs.
 - EIGRP propagates routes between routers and MLSWs so all devices can reach each other across the full network.
 - Using **Simulation Mode** in Packet Tracer is a powerful way to verify that traffic is taking the expected path through the network.
