@@ -1,4 +1,6 @@
-# 🌐 Week 4 – Multilayer Switch (MLSW) Configuration Lab
+# Multilayer Switch (MLSW) Configuration Lab
+
+<img width="2791" height="1162" alt="MSLM" src="https://github.com/user-attachments/assets/1ab20891-02d2-4405-a977-5b34fb1db661" />
 
 > **Tool:** Cisco Packet Tracer  
 > **Topic:** Layer 3 Switching, VLANs, EIGRP, DHCP, Inter-VLAN Routing
